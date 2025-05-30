@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('../images/background.png') no-repeat center center fixed;
+  background-size: cover; /* Resmi her zaman ekranı kaplayacak şekilde ayarla */
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh; /* Sayfa her zaman ekran yüksekliği kadar olacak */
+  margin: 0;
+  padding: 0;
+}
+
+/* Kayıt Formunun Konumu ve Tasarımı */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6); /* Hafif koyu opak arka plan */
+}
+
+.register-form {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-form h2 {
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.register-form .form-label {
+  font-weight: 500;
+  color: #555;
+}
+
+.register-form .form-control {
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.register-form button {
+  background-color: #ff3366;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.register-form button:hover {
+  background-color: #e62e57;
+  transition: background-color 0.3s ease;
+}
+
+.register-form a {
+  text-decoration: none;
+  color: #ff3366;
+  font-weight: 500;
+}
+
+.register-form a:hover {
+  text-decoration: underline;
+}
